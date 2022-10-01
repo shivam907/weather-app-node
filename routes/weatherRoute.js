@@ -14,7 +14,7 @@ const getCity = routes.get("/city", (req, res, next) => {
   //   res.render("index");
   //   const city = req.body.city;
   console.log(city);
-  data(city);
+  console.log(data(city));
   res.render("weather", {
     city: city,
   });
